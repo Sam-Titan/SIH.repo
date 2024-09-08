@@ -1,0 +1,40 @@
+body {
+    background-color: white;
+}
+.head-file {
+    text-align: center;
+    background-color: lightgreen;
+    
+}
+.main-content {
+    padding: 20px;
+    background-color: green;
+}
+.video-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 20px;
+    justify-content: center;
+}
+.video-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    width: 500px;
+    height: 300px;
+}
+.video-card h3 {
+    font-size: 16px;
+    padding: 10px;
+    margin: 0;
+    background-color: lightblue;
+}
+iframe {
+    width: 100%; /* Ensures the video fills the width of the card */
+    height: 100%; /* Maintains aspect ratio */
+    display: block; /* Removes any extra spacing around the video */
+}
